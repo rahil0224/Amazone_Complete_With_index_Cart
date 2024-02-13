@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("/images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin: 5px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address {
+    margin-left: 10px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+
+/*
+Box to Delive address 
+*/
+
+.border {
+    border: 1.4px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.nav-search:hover {
+    border: 1px solid orange
+}
+
+.search_select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search_input {
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search_icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    font-size: 1.5rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+.panel {
+    background-color: #0f1111;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    color: white;
+    margin-left: 25px;
+}
+
+.panel-option p {
+    display: inline;
+    color: #f3f3f3;
+    margin-left: 15px;
+}
+
+.panel-option p:hover {
+    border: solid 1px white;
+}
+
+.panel-option {
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.panel-disc {
+    color: #f3f3f3;
+    font-size: 0.95rem;
+}
+
+.hero-section {
+    background-image: url("../images/hero_image.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero_msg {
+    background-color: whitesmoke;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    font-size: 0.85rem;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.hero_msg a {
+    color: rgb(47, 47, 224);
+    font-size: 0.85rem;
+}
+
+.shop_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e2e7e6;
+
+}
+
+.box1 h3 {
+    text-align: center;
+}
+
+.box2 h3 {
+    text-align: center;
+}
+
+.box3 h3 {
+    text-align: center;
+}
+
+.box4 h3 {
+    text-align: center;
+}
+
+.box5 h3 {
+    text-align: center;
+}
+
+.box6 h3 {
+    text-align: center;
+}
+
+.box7 h3 {
+    text-align: center;
+}
+
+.box8 h3 {
+    text-align: center;
+}
+
+.box {
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 2px;
+    padding: 20px 0px 15px;
+}
+
+.box_content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box_content p {
+    color: #007185;
+}
+
+.box1_image {
+    background-image: url('https://m.media-amazon.com/images/I/71GqA9J4LGL._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box2_image {
+    background-image: url('https://m.media-amazon.com/images/I/71AIWvFeVpL._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box3_image {
+    background-image: url('https://m.media-amazon.com/images/I/71W16KsmfJL._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box4_image {
+    background-image: url('https://m.media-amazon.com/images/I/71rizvN0T4L._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box5_image {
+    background-image: url('https://m.media-amazon.com/images/I/81stF5wTCOL._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box6_image {
+    background-image: url('https://m.media-amazon.com/images/I/71D4QPK5nNL._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box7_image {
+    background-image: url('https://m.media-amazon.com/images/I/71jSIqC-65L._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+.box8_image {
+    background-image: url('https://m.media-amazon.com/images/I/71Otskj3J7L._AC_SL1500_.jpg');
+    height: 330px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.95rem;
+}
+
+/* Footer design part start from here  */
+.footer {
+    margin-top: 15px;
+}
+
+.back-to-top {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel {
+    background-color: #0f1111;
+    color: #cccccc;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 20px;
+    font-size: 1.15rem;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 img {
+    height: 50px;
+    width: 100px;
+}
+
+.copyright {
+    background-color: #0f1111;
+    height: 25px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#closePopup {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main_panel {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1800px;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    height: 45px;
+    font-size: 1.0rem;
+    background-color: whitesmoke;
+}
+
+.result_drop {
+    margin-right: 15px;
+}
+
+.result_drop select {
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left_cart {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 750px;
+}
+
+.left_delivery {
+    height: 80px;
+    color: rgb(16, 16, 16);
+    width: 210px;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+.left_book {
+    color: rgb(16, 16, 16);
+}
+
+.left_book ul {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.left_book li {
+    font-size: 0.95rem;
+}
+
+.right_book {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_result {
+    width: 100%;
+    height: 25px;
+    background-color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.book_left {
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 750px;
+
+}
+
+.book_image1 img {
+    width: 220px;
+    height: 318px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.book1 {
+    display: flex;
+    flex-direction: row;
+    height: 340px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.book_desc {
+    display: flex;
+    flex-direction: row;
+}
+
+.book_desc_info {
+    line-height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Prime_logo img {
+    margin-top: 8px;
+    margin-left: 2px;
+    height: 20px;
+    width: 52px;
+}
